@@ -1,0 +1,24 @@
+{% load static %}
+
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/stile.css' %}" >
+</head>
+
+
+<body class="" style="">
+
+    <div_1>
+        {% for i in a %}
+            <h4>{{ i }} ₽</h4>
+        {% endfor %}
+    </div_1>
+
+    <a href = '{% url "kyrs" %}'>
+        <img src = '/static/img/kyrs/dol.jpg' alt="" class="dol">
+    </a>
+
+</body>
+</html>

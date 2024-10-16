@@ -1,0 +1,15 @@
+div_1 {
+    position:absolute;
+    left: 15%;
+    top: 10%;
+}
+
+
+img.dol {
+    position:absolute;
+    left: 35%;
+    top: 15%;
+    width: 10%;
+    height: 20%;
+    border-radius: 5vh 5vh 5vh 5vh;
+}
